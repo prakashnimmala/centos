@@ -1,3 +1,6 @@
+# Install updates
+yum -y update
+
 install_ap() {
 
 
