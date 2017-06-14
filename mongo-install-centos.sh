@@ -1,7 +1,9 @@
 
     
-yum -y install httpd
+sudo yum update
+
+sudo yum -y install httpd
     
-yum install php-5.2.17
+sudo yum install php-5.2.17
 
 sudo /usr/sbin/apachectl restart
